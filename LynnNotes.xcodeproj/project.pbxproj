@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594F12352C67B9E400470481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594F12342C67B9E400470481 /* AppDelegate.swift */; };
+		594F12372C67B9E400470481 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594F12362C67B9E400470481 /* SceneDelegate.swift */; };
+		594F12392C67B9E400470481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594F12382C67B9E400470481 /* ViewController.swift */; };
+		594F123C2C67B9E400470481 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 594F123B2C67B9E400470481 /* Base */; };
+		594F123E2C67B9E700470481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594F123D2C67B9E700470481 /* Assets.xcassets */; };
+		594F12412C67B9E700470481 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 594F12402C67B9E700470481 /* Base */; };
+		594F124C2C67B9E800470481 /* LynnNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594F124B2C67B9E800470481 /* LynnNotesTests.swift */; };
+		594F12562C67B9E800470481 /* LynnNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594F12552C67B9E800470481 /* LynnNotesUITests.swift */; };
+		594F12582C67B9E800470481 /* LynnNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594F12572C67B9E800470481 /* LynnNotesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		594F12482C67B9E800470481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594F12292C67B9E400470481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594F12302C67B9E400470481;
+			remoteInfo = LynnNotes;
+		};
+		594F12522C67B9E800470481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594F12292C67B9E400470481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594F12302C67B9E400470481;
+			remoteInfo = LynnNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		594F12312C67B9E400470481 /* LynnNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LynnNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		594F12342C67B9E400470481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		594F12362C67B9E400470481 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		594F12382C67B9E400470481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		594F123B2C67B9E400470481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		594F123D2C67B9E700470481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		594F12402C67B9E700470481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		594F12422C67B9E700470481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594F12472C67B9E800470481 /* LynnNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LynnNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594F124B2C67B9E800470481 /* LynnNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LynnNotesTests.swift; sourceTree = "<group>"; };
+		594F12512C67B9E800470481 /* LynnNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LynnNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594F12552C67B9E800470481 /* LynnNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LynnNotesUITests.swift; sourceTree = "<group>"; };
+		594F12572C67B9E800470481 /* LynnNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LynnNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594F122E2C67B9E400470481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594F12442C67B9E800470481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594F124E2C67B9E800470481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594F12282C67B9E400470481 = {
+			isa = PBXGroup;
+			children = (
+				594F12332C67B9E400470481 /* LynnNotes */,
+				594F124A2C67B9E800470481 /* LynnNotesTests */,
+				594F12542C67B9E800470481 /* LynnNotesUITests */,
+				594F12322C67B9E400470481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		594F12322C67B9E400470481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594F12312C67B9E400470481 /* LynnNotes.app */,
+				594F12472C67B9E800470481 /* LynnNotesTests.xctest */,
+				594F12512C67B9E800470481 /* LynnNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		594F12332C67B9E400470481 /* LynnNotes */ = {
+			isa = PBXGroup;
+			children = (
+				594F12342C67B9E400470481 /* AppDelegate.swift */,
+				594F12362C67B9E400470481 /* SceneDelegate.swift */,
+				594F12382C67B9E400470481 /* ViewController.swift */,
+				594F123A2C67B9E400470481 /* Main.storyboard */,
+				594F123D2C67B9E700470481 /* Assets.xcassets */,
+				594F123F2C67B9E700470481 /* LaunchScreen.storyboard */,
+				594F12422C67B9E700470481 /* Info.plist */,
+			);
+			path = LynnNotes;
+			sourceTree = "<group>";
+		};
+		594F124A2C67B9E800470481 /* LynnNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				594F124B2C67B9E800470481 /* LynnNotesTests.swift */,
+			);
+			path = LynnNotesTests;
+			sourceTree = "<group>";
+		};
+		594F12542C67B9E800470481 /* LynnNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				594F12552C67B9E800470481 /* LynnNotesUITests.swift */,
+				594F12572C67B9E800470481 /* LynnNotesUITestsLaunchTests.swift */,
+			);
+			path = LynnNotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		594F12302C67B9E400470481 /* LynnNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594F125B2C67B9E800470481 /* Build configuration list for PBXNativeTarget "LynnNotes" */;
+			buildPhases = (
+				594F122D2C67B9E400470481 /* Sources */,
+				594F122E2C67B9E400470481 /* Frameworks */,
+				594F122F2C67B9E400470481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LynnNotes;
+			productName = LynnNotes;
+			productReference = 594F12312C67B9E400470481 /* LynnNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		594F12462C67B9E800470481 /* LynnNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594F125E2C67B9E800470481 /* Build configuration list for PBXNativeTarget "LynnNotesTests" */;
+			buildPhases = (
+				594F12432C67B9E800470481 /* Sources */,
+				594F12442C67B9E800470481 /* Frameworks */,
+				594F12452C67B9E800470481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594F12492C67B9E800470481 /* PBXTargetDependency */,
+			);
+			name = LynnNotesTests;
+			productName = LynnNotesTests;
+			productReference = 594F12472C67B9E800470481 /* LynnNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		594F12502C67B9E800470481 /* LynnNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594F12612C67B9E800470481 /* Build configuration list for PBXNativeTarget "LynnNotesUITests" */;
+			buildPhases = (
+				594F124D2C67B9E800470481 /* Sources */,
+				594F124E2C67B9E800470481 /* Frameworks */,
+				594F124F2C67B9E800470481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594F12532C67B9E800470481 /* PBXTargetDependency */,
+			);
+			name = LynnNotesUITests;
+			productName = LynnNotesUITests;
+			productReference = 594F12512C67B9E800470481 /* LynnNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		594F12292C67B9E400470481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					594F12302C67B9E400470481 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					594F12462C67B9E800470481 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 594F12302C67B9E400470481;
+					};
+					594F12502C67B9E800470481 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 594F12302C67B9E400470481;
+					};
+				};
+			};
+			buildConfigurationList = 594F122C2C67B9E400470481 /* Build configuration list for PBXProject "LynnNotes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 594F12282C67B9E400470481;
+			productRefGroup = 594F12322C67B9E400470481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				594F12302C67B9E400470481 /* LynnNotes */,
+				594F12462C67B9E800470481 /* LynnNotesTests */,
+				594F12502C67B9E800470481 /* LynnNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		594F122F2C67B9E400470481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594F123E2C67B9E700470481 /* Assets.xcassets in Resources */,
+				594F12412C67B9E700470481 /* Base in Resources */,
+				594F123C2C67B9E400470481 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594F12452C67B9E800470481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594F124F2C67B9E800470481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594F122D2C67B9E400470481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594F12392C67B9E400470481 /* ViewController.swift in Sources */,
+				594F12352C67B9E400470481 /* AppDelegate.swift in Sources */,
+				594F12372C67B9E400470481 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594F12432C67B9E800470481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594F124C2C67B9E800470481 /* LynnNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594F124D2C67B9E800470481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594F12562C67B9E800470481 /* LynnNotesUITests.swift in Sources */,
+				594F12582C67B9E800470481 /* LynnNotesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		594F12492C67B9E800470481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594F12302C67B9E400470481 /* LynnNotes */;
+			targetProxy = 594F12482C67B9E800470481 /* PBXContainerItemProxy */;
+		};
+		594F12532C67B9E800470481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594F12302C67B9E400470481 /* LynnNotes */;
+			targetProxy = 594F12522C67B9E800470481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		594F123A2C67B9E400470481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594F123B2C67B9E400470481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		594F123F2C67B9E700470481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594F12402C67B9E700470481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		594F12592C67B9E800470481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		594F125A2C67B9E800470481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		594F125C2C67B9E800470481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W42ZQLDQNJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LynnNotes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmad.LynnNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		594F125D2C67B9E800470481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W42ZQLDQNJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LynnNotes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmad.LynnNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		594F125F2C67B9E800470481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W42ZQLDQNJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmad.LynnNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LynnNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LynnNotes";
+			};
+			name = Debug;
+		};
+		594F12602C67B9E800470481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W42ZQLDQNJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmad.LynnNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LynnNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LynnNotes";
+			};
+			name = Release;
+		};
+		594F12622C67B9E800470481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W42ZQLDQNJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmad.LynnNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LynnNotes;
+			};
+			name = Debug;
+		};
+		594F12632C67B9E800470481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W42ZQLDQNJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmad.LynnNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LynnNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		594F122C2C67B9E400470481 /* Build configuration list for PBXProject "LynnNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594F12592C67B9E800470481 /* Debug */,
+				594F125A2C67B9E800470481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594F125B2C67B9E800470481 /* Build configuration list for PBXNativeTarget "LynnNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594F125C2C67B9E800470481 /* Debug */,
+				594F125D2C67B9E800470481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594F125E2C67B9E800470481 /* Build configuration list for PBXNativeTarget "LynnNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594F125F2C67B9E800470481 /* Debug */,
+				594F12602C67B9E800470481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594F12612C67B9E800470481 /* Build configuration list for PBXNativeTarget "LynnNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594F12622C67B9E800470481 /* Debug */,
+				594F12632C67B9E800470481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 594F12292C67B9E400470481 /* Project object */;
+}
